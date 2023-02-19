@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    margin: 44px 0 0 35px;
+    cursor: pointer;
+}
+
+.link-header:hover {
+    opacity: .4;
+}
+
+.link-header:active {
+    opacity: .8;
+}
+
+.button-login {
+    background: #665AE1;
+    border-radius: 21px;
+    width: 130px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin-top: 38px;
+    margin-left: 23px;
+}
+
+.button-login:hover {
+    opacity: .4;
+}
+
+.button-login:active {
+    opacity: .8;
+}
+
+.image-logo {
+    display: inline-block;
+    width: 468px;
+    height: 400px;
+    margin-top: 110px;
+    margin-left: 125px;
+}
+
+.text-we-care {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    text-align: justify;
+    margin-top: 32px;
+}
+
+.button-explore {
+    background: #ADFF00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    margin-top: 65px;
+}
+
+.button-explore:hover {
+    opacity: .4;
+}
+
+.button-explore:active {
+    opacity: .8;
+}
+
+@media screen and (max-width: 900px) {
+
+    header {
+        display: none;
+    }
+
+    .image-logo {
+        display: block;
+        position: relative;
+        margin: 200px 22px 26px 14px;
+        padding: 8px;
+        height: auto;
+    }
+
+    .text-we-care {
+        display: block;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 61px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 37px;
+        margin-top: 7px;
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-explore {
+        margin: 17px auto;
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+}
